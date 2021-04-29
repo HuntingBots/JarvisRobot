@@ -2,6 +2,10 @@
 
 # Jarvis Security bot
 
+### How To Host On Heroku 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HuntingBots/JarvisRobot)
+
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green) [![Join Support!](https://img.shields.io/badge/Support%20Chat-JarvisSupport-green)](https://t.me/JarvisSupportOT)
 
