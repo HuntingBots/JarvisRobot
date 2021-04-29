@@ -25,7 +25,7 @@ The Support group can be reached out to at [Jarvis Support](https://t.me/jarvisr
 ## Setting up the bot (Read this before trying to use!):
 
 
-### Credits
+### Credits ###
 The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
 All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
