@@ -32,7 +32,8 @@ from jarvis import (
     ALLOW_EXCL,
     telethn,
     jpyro,
-    START_IMG
+
+    JARVIS_IMG  = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
 )
 
 # needed to dynamically load modules
@@ -43,13 +44,13 @@ from jarvis.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am a Tech themed group management bot with some fun extras 
+I am a Anime themed group management bot with some fun extras 
 You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}* [ㅤ](https://telegra.ph/file/17390f5fdaf2c4733ee51.jpg).
-I'm part of [ProBotz](https://t.me/Probotz)
+I'm part of [ProBotz](https://t.me/The_Ghost_Hunter)
 Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -172,15 +173,22 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url=f"https://t.me/ProBotzSupport"),
+                            url=f"https://t.me/ProBotzSupport"), 
                         InlineKeyboardButton(
-                            text="Updates Channel",
-                            url="https://t.me/Probotz")
+                            text="Updates Channel Logs",
+                            url="https://t.me/jarvisrobotupdates")
                     ],
                     [
                         InlineKeyboardButton(
+                            text="My Master",
+                            url="https://t.me/The_Ghost_Hunter")
+                    
+
+                        ],
+                        [
+                        InlineKeyboardButton(
                             text="Source Code",
-                            url="https://github.com/sppidy/JarvisRobot/")
+                            url="https://github.com/HuntingBots/JarvisRobot/")
                     ]]))
     else:
         update.effective_message.reply_text("Hi, I'm Jarvis.")
