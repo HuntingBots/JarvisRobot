@@ -68,9 +68,6 @@ And the following:
 
 DONATE_STRING = """No Need Donations !! """
 
- JARVIS_IMG = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
-
-
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
