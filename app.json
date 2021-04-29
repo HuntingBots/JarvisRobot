@@ -10,12 +10,8 @@
       ],   
   "logo":    "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg",
  "repository": "https://github.com/HuntingBots/JarvisRobot",
-  "buildpacks": [
-   {
-     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-   },
-   { 
-"addons": [
+ 
+   "addons": [
       {
          "options": {
             "version": "12"
