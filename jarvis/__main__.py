@@ -33,7 +33,7 @@ from jarvis import (
     telethn,
     jpyro,
 
-    JARVIS_IMG  = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
+    START_IMG  = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
 )
 
 # needed to dynamically load modules
