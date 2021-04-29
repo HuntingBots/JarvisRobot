@@ -36,4 +36,4 @@ Special Thanks To [Kigyo Bot](https://github.com/Dank-del/EnterpriseALRobot) For
 Any other authorship/credits can be seen through the commits.
 
 
-Should any be missing kindly let us know at [Jarvis Support](https://t.me/JarvisSupportOT) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Jarvis Support](https://t.me/jarvisrobot_support) or simply submit a pull request on the readme.
