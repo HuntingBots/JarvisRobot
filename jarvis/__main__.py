@@ -32,10 +32,8 @@ from jarvis import (
     ALLOW_EXCL,
     telethn,
     jpyro,
-
-    START_IMG  = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
-)
-
+    START_IMG,
+) 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from jarvis.modules import ALL_MODULES
@@ -69,6 +67,9 @@ And the following:
 
 
 DONATE_STRING = """No Need Donations !! """
+
+ JARVIS_IMG = "https://telegra.ph/file/f3dcef97b27b57d7e0dcb.jpg"
+
 
 IMPORTED = {}
 MIGRATEABLE = []
